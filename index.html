@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iCodeThis.com daily challenge</title>
+    <link rel="stylesheet" href="styles.css" class="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+</head>
+<body class="bg-[#f4f5fc] flex items-start justify-center min-h-screen font-fira  text-[#564f7a]">
+	<nav class="flex items-center justify-end gap-7 w-full max-w-[920px] font-semibold mt-28">
+        <a href="#" id="products" class="relative flex items-center justify-center gap-1 p-2 transition-all duration-150 ease-in rounded-md hover:text-slate-400 group hover:bg-white">
+            <span>Products</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="transition-all duration-150 ease-in chevron group-hover:stroke-black" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="#564f7a" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M6 9l6 6l6 -6" />
+            </svg>
+        </a>
+        <a href="#" id="solutions" class="flex items-center justify-center gap-1 p-2 transition-all duration-150 ease-in rounded-md hover:text-slate-400 group hover:bg-white">
+            <span>Solutions</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="transition-all duration-150 ease-in chevron group-hover:stroke-black" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="#564f7a" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M6 9l6 6l6 -6" />
+            </svg>
+        </a>
+        <div class="relative">
+            <a href="#" id="products" class="relative flex items-center justify-center gap-1 p-2 transition-all duration-150 ease-in rounded-md hover:text-slate-400 group hover:bg-white">
+                <span>Resources</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="transition-all duration-150 ease-in chevron group-hover:stroke-black" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="#564f7a" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M6 9l6 6l6 -6" />
+                </svg>
+            </a>
+            <div class="absolute w-[360px] md:w-[750px] shadow-[11px_12px_24px_0px_rgba(213,214,218,0.59)] bg-white right-0 top-12 p-8 rounded-xl">
+                <ul class="flex flex-col items-start justify-between w-full gap-5 mt-4 md:flex-row">
+                    <li class="w-full md:w-1/2">
+                        <h2 class="text-sm font-bold tracking-wide">HELP</h2>
+                        <div class="flex items-start justify-start gap-6 p-4 cursor-pointer bg-[#ffeff2] rounded-xl mt-3">
+                            <span class="aspect-square w-[60px] rounded-full bg-[#ffeff2] flex items-center justify-center shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#353159" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+                                    <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+                                    <path d="M3 6l0 13" />
+                                    <path d="M12 6l0 13" />
+                                    <path d="M21 6l0 13" />
+                                </svg>
+                            </span>
+                            <span class="mt-2 font-normal">
+                                <h3 class="font-[800]">Help Center</h3>
+                                <p>Learn how to sing up, install and use our products.</p>
+                            </span>
+                        </div>
+                        <div class="flex items-start justify-start gap-6 p-4 mt-3 rounded-xl transition-all cursor-pointer duration-150 ease-in hover:bg-[#f0f3ff]">
+                            <span class="aspect-square w-[60px] rounded-full bg-[#f0f3ff] flex items-center justify-center shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-users" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#353159" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M9 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
+                                    <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                                    <path d="M21 21v-2a4 4 0 0 0 -3 -3.85" />
+                                </svg>
+                            </span>
+                            <span class="mt-2 font-normal">
+                                <h3 class="font-[800]">Help Center</h3>
+                                <p>Learn how to sing up, install and use our products.</p>
+                            </span>
+                        </div>
+                    </li>
+                    <li class="w-full md:w-1/2">
+                        <h2 class="text-sm font-bold tracking-wide">LEARN</h2>
+                        <div class="flex items-start justify-start gap-6 p-4 mt-3 rounded-xl transition-all cursor-pointer duration-150 ease-in hover:bg-[#e8fcf0]">
+                            <span class="aspect-square w-[60px] rounded-full bg-[#e8fcf0] flex items-center justify-center shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-headset" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#353159" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M4 14v-3a8 8 0 1 1 16 0v3" />
+                                    <path d="M18 19c0 1.657 -2.686 3 -6 3" />
+                                    <path d="M4 14a2 2 0 0 1 2 -2h1a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-1a2 2 0 0 1 -2 -2v-3z" />
+                                    <path d="M15 14a2 2 0 0 1 2 -2h1a2 2 0 0 1 2 2v3a2 2 0 0 1 -2 2h-1a2 2 0 0 1 -2 -2v-3z" />
+                                </svg>
+                            </span>
+                            <span class="mt-2 font-normal">
+                                <h3 class="font-[800]">Help Center</h3>
+                                <p>Learn how to sing up, install and use our products.</p>
+                            </span>
+                        </div>
+                        <div class="flex items-start justify-start gap-6 p-4 mt-3 rounded-xl transition-all cursor-pointer duration-150 ease-in hover:bg-[#fbf5e2]">
+                            <span class="aspect-square w-[60px] rounded-full bg-[#fbf5e2] flex items-center justify-center shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-messages" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#353159" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <path d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10" />
+                                    <path d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2" />
+                                </svg>
+                            </span>
+                            <span class="mt-2 font-normal">
+                                <h3 class="font-[800]">Help Center</h3>
+                                <p>Learn how to sing up, install and use our products.</p>
+                            </span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <a href="#" id="pricing" class="flex items-center justify-center gap-1 p-2 transition-all duration-150 ease-in rounded-md hover:text-slate-400 group hover:bg-white">
+            <span>Pricing</span>
+            <svg xmlns="http://www.w3.org/2000/svg" class="transition-all duration-150 ease-in chevron group-hover:stroke-black" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="#564f7a" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M6 9l6 6l6 -6" />
+            </svg>
+        </a>
+    </nav>
+</body>
+</html>
